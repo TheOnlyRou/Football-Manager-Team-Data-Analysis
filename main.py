@@ -3,9 +3,11 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    fortuna = pd.read_csv("Fortuna2029.csv", encoding="windows-1252")
-    print(fortuna)
-    print(fortuna.info())
+    # fortuna = pd.read_csv("Fortuna2029.csv", encoding="utf8")
+    # print(fortuna)
+    # print(fortuna.info())
+    df = pd.read_csv("data/scoringTimeSeries/premscorers2022.csv", encoding="utf8")
+    print(df.info())
     pass
 
 
